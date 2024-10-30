@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply w-16 h-16 text-3xl bg-gray-700 text-white hover:bg-gray-600 rounded-full;
+}
