@@ -7,6 +7,6 @@ export interface Ilog {
 
 export interface IState {
   phoneNumber: string;
-  currentCall: { id: number; phoneNumber: string };
+  currentCall: Ilog | null;
   log: Ilog[];
 }

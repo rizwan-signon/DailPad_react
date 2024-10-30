@@ -18,7 +18,7 @@ const Call = () => {
   }, []);
   return (
     <div className="flex items-center flex-col gap-3">
-      <h1 className="text-3xl">{currentCall.phoneNumber}</h1>
+      <h1 className="text-3xl">{currentCall?.phoneNumber}</h1>
       <i className="text-xl">calling...</i>
       <div className="w-20 h-20 rounded-full bg-gray-500">
         <img

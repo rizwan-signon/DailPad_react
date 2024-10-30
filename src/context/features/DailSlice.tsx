@@ -3,7 +3,7 @@ import type { PayloadAction } from "@reduxjs/toolkit";
 import { IState } from "../../typings/types";
 const initialState: IState = {
   phoneNumber: "",
-  currentCall: "",
+  currentCall: null,
   log: [],
 };
 
