@@ -15,6 +15,10 @@ const router = createBrowserRouter([
     path: "/call",
     element: <Call />,
   },
+  {
+    path: "*",
+    element: <h1>NO page Matched To this route</h1>,
+  },
 ]);
 const App = () => {
   return (
